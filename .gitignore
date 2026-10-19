@@ -1,0 +1,32 @@
+# --- Gradle ---
+.gradle/
+.kotlin/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# --- Android ---
+*.apk
+*.aab
+*.ap_
+*.dex
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# --- Kotlin / JVM ---
+*.hprof
+
+# --- IDE ---
+.idea/
+*.iml
+.vscode/
+.claude/settings.local.json
+
+# --- macOS ---
+.DS_Store
+
+# --- test-server ---
+node_modules/
+test-server/uploads/*
+!test-server/uploads/.gitkeep
